@@ -20,9 +20,6 @@ public class BubbleSort {
             }
         }
 
-
-        Arrays.sort(num);
-
         System.out.println(System.currentTimeMillis() - startTime+ " ms");
 
         for(int i: num) {
