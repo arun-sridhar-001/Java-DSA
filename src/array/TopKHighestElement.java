@@ -21,6 +21,8 @@ public class TopKHighestElement {
 
     }
 
+
+    //O(N)
     private static int optimizedApproach(int[] arr, int k) {
         PriorityQueue<Integer> MIN_HEAP = new PriorityQueue<>();
         PriorityQueue<Integer> MAX_HEAP = new PriorityQueue<>((a,b) -> b-a);
