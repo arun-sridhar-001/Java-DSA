@@ -57,7 +57,7 @@ public class FindUnion {
         }
 
         while (j < m) {
-            if (unionList.isEmpty() || unionList.contains(arr2[j])) {
+            if (unionList.isEmpty() || unionList.get(unionList.size() - 1) != arr2[j]) {
                 unionList.add(arr2[j]);
             }
             j++;
