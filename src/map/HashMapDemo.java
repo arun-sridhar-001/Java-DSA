@@ -2,6 +2,11 @@ package map;
 
 import java.util.*;
 
+/**
+ * Concurrent Hashmap -> Map<Object, Object> map = new ConcurrentHashMap<>();
+ * Synchronized HashMap -> Collections.synchronizedMap(studentMap);
+ */
+
 public class HashMapDemo {
 
     public static void main(String[] args) {
@@ -23,6 +28,6 @@ public class HashMapDemo {
 
         System.out.println("After removing");
         System.out.println(studentMap);
-        
+
     }
 }
