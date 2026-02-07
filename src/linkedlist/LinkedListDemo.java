@@ -37,6 +37,13 @@ public class LinkedListDemo {
         while(it.hasNext()) {
             System.out.print(it.next()+ " ");
         }
+        System.out.println();
+
+
+        list.reverse();
+        System.out.println("After reverse");
+        list.iterate();
+        System.out.println();
 
 
     }
